@@ -36,7 +36,7 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
   ```
   
   ![Alt text](/StreamServer-Docker/screenshots/run.png?raw=true "Run Stream Server container")
-2. Leave this console open!
+2. Leave this console open while you are working and then [stop the container](#exit-stream-server-container).
 3. Find your docker machine IP
   1. On Linux is: localhost
   2. On Windows/Mac open a new Docker Quickstart Terminal and run:
