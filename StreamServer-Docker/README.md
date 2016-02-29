@@ -34,6 +34,8 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
   ```bash
   $ docker run -i -t --rm -p 8989:8989 --name streamserver streamserver
   ```
+  
+  ![Alt text](/screenshots/run.png?raw=true "Run Stream Server container")
 2. Leave this console open!
 3. Find your docker machine IP
   1. On Linux is: localhost
@@ -45,7 +47,9 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
     It will return your docker-machine ip **(from now on use this instead of localhost if you are on Windows or Mac)**.
 
 ## Test the Stream Server
-Test the Stream Server by opening http://**docker-machine-ip**:8989/measurements
+Test the Stream Server by opening http://**docker-machine-ip**:8989/measurements on your browser
+
+![Alt text](/screenshots/test.png?raw=true "Test Stream Server container")
 
 
 ## Exit Stream Server container
