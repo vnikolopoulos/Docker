@@ -43,7 +43,7 @@ Linux only: [Use docker without sudo](http://askubuntu.com/a/477554)
   ```bash
   $ docker run -i -t --rm -p 9090:9090  --name exareme exareme
   ```
-3. Leave this console open!
+3. Leave this console open while you are working and then [stop the container](#exit-exareme-container).
 3. Find your docker machine IP
   1. On Linux is: localhost
   2. On Windows/Mac open a new Docker Quickstart Terminal and run:
